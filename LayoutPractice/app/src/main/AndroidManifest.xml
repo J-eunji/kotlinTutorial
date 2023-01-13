@@ -12,13 +12,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LayoutPractice"
         tools:targetApi="31">
-
-<!--        메인화면-->
+        <activity
+            android:name=".SecondActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <!-- 메인화면 -->
         <activity
             android:name=".MainActivity"
             android:exported="true">
 
-<!--            어플이실행될 때 가장 먼저 실행하도록 함-->
+            <!-- 어플이실행될 때 가장 먼저 실행하도록 함 -->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

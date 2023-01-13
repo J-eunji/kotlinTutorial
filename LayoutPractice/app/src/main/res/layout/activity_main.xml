@@ -30,7 +30,7 @@
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:background="@drawable/rounded_corner"
-        android:text="@string/myStr"
+        android:text="Create free acount"
         android:textAllCaps="false"
         android:textColor="#fff"
         android:textSize="20sp" />
@@ -39,7 +39,7 @@
         android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:text="@string/myStr"
+        android:text="Continue with kaka"
         android:textAllCaps="false"
         android:textSize="20sp"
         android:textColor="#fff"
@@ -56,10 +56,11 @@
         />
 
     <android.widget.Button
+        android:id="@+id/login_btn"
         android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:text="@string/myStr"
+        android:text="Login"
         android:textAllCaps="false"
         android:textSize="20sp"
         android:textStyle="bold"
